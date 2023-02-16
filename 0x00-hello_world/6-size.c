@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
  * main -main function
- *
- * return: 0 on success
+ *the computer it is compiled and run on..
+ * Return: always 0.
  */
+
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char) );
