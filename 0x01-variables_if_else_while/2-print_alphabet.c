@@ -4,7 +4,7 @@
  * 
  * Return: always 0
  */
-int main()
+int main(void)
 {
 
 	char c;
@@ -14,5 +14,5 @@ int main()
 		putchar(c);
 	}
 	putchar('\n');
-    return 0;
+	return (0);
 }
