@@ -17,6 +17,6 @@ int main()
 	{
         	putchar(c);
 	}
-	printf("\n");
+	putchar('\n');
     return 0;
 }
