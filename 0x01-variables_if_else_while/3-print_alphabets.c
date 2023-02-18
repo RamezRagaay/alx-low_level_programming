@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - this is the main function
- * 
+ *
  * Return: always 0
  */
-int main()
+int main(void)
 {
 
 	char c;
@@ -15,8 +15,8 @@ int main()
 	}
 	for (c = 'A' ; c <= 'Z' ; c++)
 	{
-        	putchar(c);
+		putchar(c);
 	}
 	putchar('\n');
-    return 0;
+	return (0);
 }
