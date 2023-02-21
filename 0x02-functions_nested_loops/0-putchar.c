@@ -9,7 +9,7 @@ int main(void)
 
 	int count;
 	char message[] = "_putchar";
-	
+
 	for (count = 0; count < 9; count++)
 	{
 		putchar(message[count]);
