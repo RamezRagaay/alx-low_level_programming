@@ -6,6 +6,11 @@
  */
 int main(void)
 {
-        printf("_putchar\n");
-        return (0);
+	char message[] = "_putchar";
+	for (int count = 0; count < 9; count++)
+	{
+		putchar(message[count]);
+	}
+	putchar('\n');
+	return (0);
 }
