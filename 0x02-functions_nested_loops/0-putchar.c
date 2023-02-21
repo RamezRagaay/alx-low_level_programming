@@ -14,6 +14,6 @@ int main(void)
 	{
 		putchar(message[count]);
 	}
-	putchar('\n');
+	//putchar('\n');
 	return (0);
 }
