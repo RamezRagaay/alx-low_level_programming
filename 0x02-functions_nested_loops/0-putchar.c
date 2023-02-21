@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - this is the main function
  *
@@ -12,7 +13,7 @@ int main(void)
 
 	for (count = 0; count < 9; count++)
 	{
-		putchar(message[count]);
+		_putchar(message[count]);
 	}
 	return (0);
 }
