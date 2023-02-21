@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-
-	int count;
-	char message[] = "_putchar";
-
-	for (count = 0; count < 9; count++)
-	{
-		_putchar(message[count]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
