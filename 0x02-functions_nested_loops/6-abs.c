@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**_abs - this function get the abslute value
+/**
+ * _abs - this function get the abslute value
  *
  * Return: always 0
  */
