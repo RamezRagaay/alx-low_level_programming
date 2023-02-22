@@ -5,12 +5,10 @@
  * Return: always 0
  */
 
-void times_table(void)
-{
+void times_table(void){
 	int num = 0;
-	int count = 0;
+	int count, x;
 	int inc = 0;
-	int x;
 
 	for (count = 0; count <= 9; count++)
 	{
@@ -36,9 +34,7 @@ void times_table(void)
 			else
 			{
 				if (num <= 10)
-				{
 					_putchar(num + '0');
-				}
 				else
 				{
 					_putchar((num / 10) + '0');
@@ -51,5 +47,4 @@ void times_table(void)
 		num = 0;
 		inc++;
 		_putchar('\n');
-	}
-}
+	}}
