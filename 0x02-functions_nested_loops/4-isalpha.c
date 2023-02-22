@@ -5,6 +5,8 @@
  *
  *Return: 1 if alphabet
  *and 0 otherwise
+ *
+ * @c: parameter to be printed
  */
 
 int _isalpha(int c)
@@ -15,6 +17,6 @@ int _isalpha(int c)
 	}
 	else
 	{
-		return (0);	
+		return (0);
 	}
 }
