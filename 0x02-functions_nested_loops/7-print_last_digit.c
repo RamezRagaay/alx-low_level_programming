@@ -5,7 +5,7 @@
  *
  * @num : a parameter to be used
  *
- * Return: always 0
+ * Return: last_digit
  */
 int print_last_digit(int num)
 {
@@ -15,6 +15,5 @@ int print_last_digit(int num)
 	last_digit = num % 10;
 	if (last_digit < 0)
 		last_digit = last_digit * -1;
-	return (last_digit);
 	return (last_digit);
 }
