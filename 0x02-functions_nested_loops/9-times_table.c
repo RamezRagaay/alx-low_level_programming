@@ -5,7 +5,8 @@
  * Return: always 0
  */
 
-void times_table(void){
+void times_table(void)
+{
 	int num = 0;
 	int count, x;
 	int inc = 0;
@@ -40,10 +41,8 @@ void times_table(void){
 					_putchar((num / 10) + '0');
 					_putchar((num % 10) + '0');
 				}
-
 			}
-			num += inc;
-		}
+			num += inc;}
 		num = 0;
 		inc++;
 		_putchar('\n');
