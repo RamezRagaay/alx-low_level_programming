@@ -42,7 +42,7 @@ void times_table(void)
 					_putchar((num % 10) + '0');
 				}
 			}
-			num += inc;}
+			num += inc; }
 		num = 0;
 		inc++;
 		_putchar('\n');
