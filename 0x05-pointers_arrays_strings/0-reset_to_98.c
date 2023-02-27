@@ -2,7 +2,7 @@
 /**
  *reset_to_98 - function that change the value of a variable inside memmory
  *
- * @*n: parameter
+ * @n: parameter
  *
  * Return: always 0;
  */
