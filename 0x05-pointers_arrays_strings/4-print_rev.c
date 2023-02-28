@@ -5,6 +5,7 @@
  *
  *
  */
+int _putchar(char);
 
 void print_rev(char *s)
 {
@@ -18,4 +19,5 @@ void print_rev(char *s)
 	count = 0;
 	for (count = 0; count != '\0'; count++)
 		_putchar(s[count]);
+	_putchar('\n');
 }
