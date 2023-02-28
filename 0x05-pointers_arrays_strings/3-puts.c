@@ -4,7 +4,7 @@
  *_puts - function that prints
  *
  *@str: a string to be printed
- * 
+ *
  * Return: always 0;
  */
 
