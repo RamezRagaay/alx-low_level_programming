@@ -2,7 +2,7 @@
 /**
  *print_rev - function to reverse string
  *
- *@s: parameter to be reversed
+ * @s: parameter to be reversed
  *
  * @char: parameter
  * Return: always 0;
