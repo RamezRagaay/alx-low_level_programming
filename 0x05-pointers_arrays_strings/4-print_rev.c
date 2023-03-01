@@ -4,6 +4,7 @@
  *
  *@s: parameter to be reversed
  *
+ * @char: parameter
  * Return: always 0;
  */
 int _putchar(char);
