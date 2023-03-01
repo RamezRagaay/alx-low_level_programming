@@ -2,7 +2,6 @@
 /**
  *print_rev - function to reverse string
  *
- * @s: parameter
  * @char: parameter
  * Return: always 0;
  */
